@@ -1,0 +1,85 @@
+body {
+  background: #ffb2eb url("../images/stars.png");
+  background-size: 19em 18em;
+  /*width and then height*/
+  font-family: 'Courgette', cursive;
+  font-size: 16px;
+}
+
+.diamonds {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("../images/diamond.png");
+  background-size: 8.9em 7em;
+  /*width and then height*/
+}
+
+#navImg {
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  float: left;
+  margin: 1em .8em 0 1.5em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#navImg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px 10px white;
+}
+
+.mid {
+  margin-top: 6em;
+  margin-bottom: 5em;
+  margin-left: 1em;
+  padding: 2em 0;
+  border: 5px double black;
+  background-color: white;
+  height: 36.8em;
+  width: 80%;
+  border-radius: 8px;
+  overflow: auto;
+  display: inline-block;
+}
+
+h1 {
+  display: block;
+}
+
+.center-block {
+  position: absolute;
+  top: 42%;
+  margin-left: 28%;
+  width: 300px;
+  height: 130px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  border: 3px solid #4da4fa;
+  border-radius: 8px;
+  background: -webkit-radial-gradient(top center, ellipse cover, rgba(255, 255, 255, 0.2) 0%, rgba(240, 77, 215, 0.5) 100%);
+}
+
+.center-block:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px #a8cdff;
+}
+
+.images {
+  width: 150px;
+  margin-bottom: 1em;
+  height: 250px;
+  border: 3px solid black;
+  margin-left: 2em;
+}
+
+.thumb-nail:hover img {
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumb-nail img:hover {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
